@@ -13,7 +13,7 @@
 
         <x-slot:media>
             <div class="media-frame h-64 md:h-72">
-                <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1400&q=80" alt="Corporate consulting team in a modern office discussion">
+                <img src="https://source.unsplash.com/1400x900/?african,business,office,discussion" alt="African corporate team in a professional office discussion">
             </div>
         </x-slot:media>
     </x-hero>

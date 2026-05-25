@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\FormSubmissionController;
 use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 
@@ -11,6 +12,11 @@ Route::controller(PageController::class)->group(function (): void {
     Route::get('/blog', 'blog')->name('blog');
     Route::get('/faq', 'faq')->name('faq');
     Route::get('/contact', 'contact')->name('contact');
+});
+
+Route::controller(FormSubmissionController::class)->group(function (): void {
+    Route::post('/contact', 'submitContact')->name('contact.submit');
+    Route::post('/careers', 'submitCareer')->name('careers.submit');
 });
 
 Route::controller(ServiceController::class)->prefix('services')->name('services.')->group(function (): void {

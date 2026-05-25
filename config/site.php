@@ -149,64 +149,208 @@ return [
         ],
         'detail' => [
             'tax' => [
+                'slug' => 'tax',
                 'name' => 'Tax Services',
                 'summary' => 'Reduce tax risk while improving efficiency and compliance across your operations.',
+                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,accountant,tax,office',
+                'overview' => 'Our tax team supports businesses with planning, compliance, and strategic structuring to reduce exposure while preserving growth opportunities. We help you align statutory obligations with operational realities and long-term objectives.',
+                'benefits' => [
+                    'Improved tax efficiency and reduced compliance risk.',
+                    'Timely filing support across key tax obligations.',
+                    'Advisory guidance for transactions and restructuring.',
+                ],
+                'industries' => ['SMEs', 'Startups', 'Manufacturing', 'Retail'],
+                'testimonials' => [
+                    ['quote' => 'Their tax planning support helped us optimize obligations without compromising compliance.', 'name' => 'Chidi E.', 'role' => 'CFO', 'company' => 'Nexus Retail'],
+                    ['quote' => 'Fast, clear, and dependable. Filing cycles are now smooth and predictable.', 'name' => 'Amina B.', 'role' => 'Finance Manager', 'company' => 'PrimeCare Clinics'],
+                ],
+                'faq' => [
+                    ['question' => 'Do you support monthly tax compliance?', 'answer' => 'Yes. We support recurring filing schedules, reconciliations, and documentation readiness.'],
+                    ['question' => 'Can you advise on complex tax structuring?', 'answer' => 'Yes. We provide strategic advisory support for growth, restructuring, and transaction-related tax decisions.'],
+                ],
+                'related' => ['services.audit', 'services.compliance', 'services.accounting'],
                 'meta' => [
                     'title' => 'Tax Services',
                     'description' => 'End-to-end tax planning, filing, advisory, and regulatory support for Nigerian businesses.',
                 ],
             ],
             'audit' => [
+                'slug' => 'audit',
                 'name' => 'Audit Services',
                 'summary' => 'Independent audit and assurance services designed to improve trust and transparency.',
+                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,auditor,finance,meeting',
+                'overview' => 'We deliver independent audit and assurance services with rigorous methodology, sector context, and practical reporting to support stakeholder confidence and governance quality.',
+                'benefits' => [
+                    'Enhanced credibility with investors and stakeholders.',
+                    'Improved internal controls and reporting discipline.',
+                    'Actionable recommendations beyond compliance checks.',
+                ],
+                'industries' => ['Financial Services', 'Healthcare', 'Manufacturing', 'SMEs'],
+                'testimonials' => [
+                    ['quote' => 'The audit process was efficient and insightful. Their recommendations improved our control environment.', 'name' => 'Samuel O.', 'role' => 'CEO', 'company' => 'Helix Manufacturing'],
+                    ['quote' => 'Professional, structured, and transparent throughout the engagement.', 'name' => 'Ifeoma N.', 'role' => 'Board Chair', 'company' => 'Axis Microfinance'],
+                ],
+                'faq' => [
+                    ['question' => 'How long does an audit engagement typically take?', 'answer' => 'Duration depends on scope and documentation readiness. We define timeline and milestones during planning.'],
+                    ['question' => 'Do you support pre-audit readiness?', 'answer' => 'Yes. We assist with readiness checks, control reviews, and documentation preparation.'],
+                ],
+                'related' => ['services.risk-management', 'services.accounting', 'services.compliance'],
                 'meta' => [
                     'title' => 'Audit Services',
                     'description' => 'Independent, standards-based audit and assurance services for confident decision-making.',
                 ],
             ],
             'accounting' => [
+                'slug' => 'accounting',
                 'name' => 'Accounting Services',
                 'summary' => 'Accurate, timely, and strategic financial reporting for better business control.',
+                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,accounting,corporate,team',
+                'overview' => 'Our accounting services provide reliable bookkeeping, month-end reporting, and management insights that strengthen operational control and strategic decision-making.',
+                'benefits' => [
+                    'Accurate monthly financial statements and dashboards.',
+                    'Better visibility into profitability and cash flow.',
+                    'Scalable accounting support for growth-stage businesses.',
+                ],
+                'industries' => ['SMEs', 'Startups', 'Retail', 'Healthcare'],
+                'testimonials' => [
+                    ['quote' => 'Our reporting turnaround improved dramatically within the first quarter.', 'name' => 'Blessing T.', 'role' => 'Founder', 'company' => 'Luma Health'],
+                    ['quote' => 'They gave us the structure we needed to scale confidently.', 'name' => 'Abdul R.', 'role' => 'COO', 'company' => 'Mercury Logistics'],
+                ],
+                'faq' => [
+                    ['question' => 'Can you manage full outsourced accounting?', 'answer' => 'Yes. We can manage end-to-end accounting operations or support your internal team.'],
+                    ['question' => 'Do you support management reporting?', 'answer' => 'Yes. We provide tailored reporting packs for leadership and board-level reviews.'],
+                ],
+                'related' => ['services.bookkeeping', 'services.payroll', 'services.advisory'],
                 'meta' => [
                     'title' => 'Accounting Services',
                     'description' => 'Managed accounting services that improve reporting, controls, and financial visibility.',
                 ],
             ],
             'payroll' => [
+                'slug' => 'payroll',
                 'name' => 'Payroll Management',
                 'summary' => 'Streamlined payroll operations with compliance at the center.',
+                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,hr,payroll,office',
+                'overview' => 'We help businesses manage payroll processing, statutory remittances, and workforce reporting with accuracy, confidentiality, and compliance discipline.',
+                'benefits' => [
+                    'Accurate payroll processing and timely disbursement.',
+                    'Reduced statutory remittance errors.',
+                    'Clear records for workforce and regulatory reporting.',
+                ],
+                'industries' => ['Manufacturing', 'Healthcare', 'Retail', 'Financial Services'],
+                'testimonials' => [
+                    ['quote' => 'Payroll errors dropped significantly after moving to ECA support.', 'name' => 'Ada K.', 'role' => 'HR Lead', 'company' => 'Nova Healthcare'],
+                    ['quote' => 'Reliable, discreet, and always on schedule.', 'name' => 'Femi A.', 'role' => 'Operations Manager', 'company' => 'Brisk Retail'],
+                ],
+                'faq' => [
+                    ['question' => 'Do you handle statutory remittances?', 'answer' => 'Yes. We support compliant remittance workflows and record management.'],
+                    ['question' => 'Can payroll integrate with our accounting reports?', 'answer' => 'Yes. We align payroll outputs with your monthly reporting structures.'],
+                ],
+                'related' => ['services.accounting', 'services.compliance', 'services.bookkeeping'],
                 'meta' => [
                     'title' => 'Payroll Management',
                     'description' => 'Reliable payroll processing, statutory remittance management, and workforce reporting.',
                 ],
             ],
             'bookkeeping' => [
+                'slug' => 'bookkeeping',
                 'name' => 'Bookkeeping Services',
                 'summary' => 'Structured financial records that support smart planning and clean audits.',
+                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,bookkeeping,finance,documents',
+                'overview' => 'We maintain accurate day-to-day records, reconciliations, and ledger structures that keep your finances organized and audit-ready.',
+                'benefits' => [
+                    'Reliable transaction records and reconciliations.',
+                    'Reduced month-end closing stress.',
+                    'Cleaner audit trails and better financial control.',
+                ],
+                'industries' => ['SMEs', 'Startups', 'Retail', 'Healthcare'],
+                'testimonials' => [
+                    ['quote' => 'Our books are now consistently clean and easy to review.', 'name' => 'Ruth M.', 'role' => 'Founder', 'company' => 'Oakline Foods'],
+                    ['quote' => 'The bookkeeping structure improved our decision-making speed.', 'name' => 'Kunle D.', 'role' => 'Finance Lead', 'company' => 'UrbanChain'],
+                ],
+                'faq' => [
+                    ['question' => 'Do you support historical clean-up?', 'answer' => 'Yes. We can clean, reconcile, and restructure prior periods where needed.'],
+                    ['question' => 'Can this scale as we grow?', 'answer' => 'Yes. Our bookkeeping frameworks are designed to scale with transaction volume.'],
+                ],
+                'related' => ['services.accounting', 'services.payroll', 'services.audit'],
                 'meta' => [
                     'title' => 'Bookkeeping Services',
                     'description' => 'Reliable bookkeeping and reconciliations that keep your financial records audit-ready.',
                 ],
             ],
             'compliance' => [
+                'slug' => 'compliance',
                 'name' => 'Compliance Services',
                 'summary' => 'Practical compliance support that keeps your business ahead of regulatory changes.',
+                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,compliance,law,business',
+                'overview' => 'We help businesses stay current with tax, statutory, and financial reporting obligations through practical workflows and ongoing advisory support.',
+                'benefits' => [
+                    'Lower risk of penalties and late filings.',
+                    'Clear compliance calendar and accountability.',
+                    'Improved confidence with regulators and partners.',
+                ],
+                'industries' => ['Financial Services', 'Manufacturing', 'SMEs', 'Healthcare'],
+                'testimonials' => [
+                    ['quote' => 'Their compliance framework gave us structure and peace of mind.', 'name' => 'Nkechi U.', 'role' => 'Director', 'company' => 'Trinity Foods'],
+                    ['quote' => 'We moved from reactive filings to proactive compliance management.', 'name' => 'Hassan S.', 'role' => 'COO', 'company' => 'Bluenet Systems'],
+                ],
+                'faq' => [
+                    ['question' => 'Can you manage compliance across multiple entities?', 'answer' => 'Yes. We support multi-entity compliance planning and reporting workflows.'],
+                    ['question' => 'Do you provide periodic compliance reviews?', 'answer' => 'Yes. We conduct periodic checks and issue recommendations for risk reduction.'],
+                ],
+                'related' => ['services.tax', 'services.audit', 'services.risk-management'],
                 'meta' => [
                     'title' => 'Compliance Services',
                     'description' => 'Tax, statutory, and financial compliance services for stable and compliant growth.',
                 ],
             ],
             'advisory' => [
+                'slug' => 'advisory',
                 'name' => 'Financial Advisory',
                 'summary' => 'Strategic advisory services for growth, restructuring, and financial performance.',
+                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,business,consulting,executive',
+                'overview' => 'Our advisory team works with leadership to improve strategy execution, financial performance, and decision quality across key business priorities.',
+                'benefits' => [
+                    'Sharper strategic decisions backed by financial insight.',
+                    'Better performance tracking and planning discipline.',
+                    'Support through growth, restructuring, and transformation.',
+                ],
+                'industries' => ['Startups', 'SMEs', 'Financial Services', 'Manufacturing'],
+                'testimonials' => [
+                    ['quote' => 'Their advisory support helped us restructure operations with clarity.', 'name' => 'Tosin P.', 'role' => 'CEO', 'company' => 'Northbridge Ventures'],
+                    ['quote' => 'A strong strategic partner for complex business decisions.', 'name' => 'Musa J.', 'role' => 'Founder', 'company' => 'Axis Agro'],
+                ],
+                'faq' => [
+                    ['question' => 'Do you support strategy implementation, not just planning?', 'answer' => 'Yes. We work with teams to translate strategy into measurable execution plans.'],
+                    ['question' => 'Can advisory be combined with accounting support?', 'answer' => 'Yes. We often combine both to improve insight quality and decision outcomes.'],
+                ],
+                'related' => ['services.accounting', 'services.risk-management', 'services.tax'],
                 'meta' => [
                     'title' => 'Financial Advisory',
                     'description' => 'Corporate and financial advisory support for better strategy and resilient growth.',
                 ],
             ],
             'risk-management' => [
+                'slug' => 'risk-management',
                 'name' => 'Risk Management',
                 'summary' => 'Risk frameworks and controls that protect value and improve resilience.',
+                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,risk,corporate,planning',
+                'overview' => 'We help businesses identify, assess, and manage operational and financial risks through practical control frameworks and ongoing monitoring support.',
+                'benefits' => [
+                    'Improved resilience to operational disruptions.',
+                    'Clearer risk visibility for leadership and boards.',
+                    'Better internal controls and accountability.',
+                ],
+                'industries' => ['Financial Services', 'Healthcare', 'Manufacturing', 'SMEs'],
+                'testimonials' => [
+                    ['quote' => 'Their risk framework improved our board-level oversight significantly.', 'name' => 'Lekan A.', 'role' => 'Board Secretary', 'company' => 'Delta Capital'],
+                    ['quote' => 'Clear, practical, and aligned to our operating realities.', 'name' => 'Peace O.', 'role' => 'Chief Risk Officer', 'company' => 'Careway Group'],
+                ],
+                'faq' => [
+                    ['question' => 'Do you support risk assessments for growing businesses?', 'answer' => 'Yes. We tailor assessments to business size, structure, and sector risks.'],
+                    ['question' => 'Can you help implement control improvements?', 'answer' => 'Yes. We support both design and implementation of practical control measures.'],
+                ],
+                'related' => ['services.audit', 'services.compliance', 'services.advisory'],
                 'meta' => [
                     'title' => 'Risk Management',
                     'description' => 'Risk assessment and control implementation services for stronger operational resilience.',
