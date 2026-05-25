@@ -20,6 +20,10 @@
 
         <div class="hidden items-center gap-6 lg:flex">
             @foreach ($site['navigation'] as $item)
+                @if ($item['label'] === 'Blog / Insights')
+                    @continue
+                @endif
+
                 @if ($item['label'] === 'Services')
                     <div class="relative" @mouseenter="servicesMenuOpen = true" @mouseleave="servicesMenuOpen = false">
                         <button type="button" class="inline-flex items-center gap-1 text-sm font-medium text-slate-700 transition hover:text-primary" :aria-expanded="servicesMenuOpen.toString()">
@@ -67,6 +71,10 @@
 
         <div class="grid flex-1 content-start gap-1">
             @foreach ($site['navigation'] as $item)
+                @if ($item['label'] === 'Blog / Insights')
+                    @continue
+                @endif
+
                 <a href="{{ route($item['route']) }}" class="rounded-md px-3 py-3 text-sm font-medium text-slate-700 hover:bg-slate-100" @click="mobileMenuOpen = false">
                     {{ $item['label'] }}
                 </a>

@@ -5,7 +5,7 @@ return [
     'domain' => 'https://ecaprofessionalservices.com',
     'tagline' => 'Accounting, Audit, Tax, and Advisory Experts for Growth-Focused Businesses',
     'contact' => [
-        'phone' => '+234 800 000 0000',
+        'phone' => '+234 803 309 0352',
         'email' => 'info@ecaprofessionalservices.com',
         'address' => 'Port Harcourt, Rivers State, Nigeria',
         'hours' => 'Mon - Fri, 8:00 AM - 5:00 PM',
