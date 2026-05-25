@@ -8,7 +8,7 @@
     >
         <x-slot:media>
             <div class="media-frame h-72 md:h-80">
-                <img src="https://source.unsplash.com/1600x1000/?african,business,reception,office" alt="African corporate reception and business environment">
+                <img src="https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&w=1600&q=80" alt="African corporate reception and business environment">
             </div>
         </x-slot:media>
     </x-hero>

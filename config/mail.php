@@ -115,4 +115,9 @@ return [
         'name' => env('MAIL_FROM_NAME', env('APP_NAME', 'Laravel')),
     ],
 
+    'submission_to' => [
+        'address' => env('FORM_SUBMISSION_TO_ADDRESS', env('MAIL_FROM_ADDRESS', 'hello@example.com')),
+        'name' => env('FORM_SUBMISSION_TO_NAME', env('APP_NAME', 'Laravel').' Website Inbox'),
+    ],
+
 ];

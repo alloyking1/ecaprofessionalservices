@@ -9,7 +9,7 @@
                 'summary' => 'Improve filing discipline, documentation readiness, and tax planning confidence in 2026.',
                 'author' => 'David Ojo',
                 'date' => 'May 2026',
-                'image' => 'https://source.unsplash.com/1400x900/?african,finance,tax,office',
+                'image' => 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1400&q=80',
             ],
             [
                 'title' => 'Financial Planning Strategies for Growth-Stage Companies',
@@ -17,7 +17,7 @@
                 'summary' => 'Build resilient planning models and improve board-level visibility on performance outcomes.',
                 'author' => 'Mariam Yusuf',
                 'date' => 'May 2026',
-                'image' => 'https://source.unsplash.com/1400x900/?african,corporate,planning,team',
+                'image' => 'https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=1400&q=80',
             ],
             [
                 'title' => 'Accounting Best Practices for Multi-Entity Operations',
@@ -25,7 +25,7 @@
                 'summary' => 'Standardize reporting, improve controls, and maintain clean monthly close cycles.',
                 'author' => 'Ezinne Anyanwu',
                 'date' => 'April 2026',
-                'image' => 'https://source.unsplash.com/1400x900/?african,accounting,business,data',
+                'image' => 'https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&w=1400&q=80',
             ],
             [
                 'title' => 'Audit Preparation Guide for Mid-Sized Businesses',
@@ -33,7 +33,7 @@
                 'summary' => 'Prepare your records, controls, and team before audit season to reduce friction and delays.',
                 'author' => 'Ezinne Anyanwu',
                 'date' => 'April 2026',
-                'image' => 'https://source.unsplash.com/1400x900/?african,audit,office,meeting',
+                'image' => 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=80',
             ],
             [
                 'title' => 'Payroll Compliance Checklist for HR and Finance Teams',
@@ -41,7 +41,7 @@
                 'summary' => 'A practical checklist to keep payroll operations and remittances on track.',
                 'author' => 'David Ojo',
                 'date' => 'March 2026',
-                'image' => 'https://source.unsplash.com/1400x900/?african,hr,payroll,workspace',
+                'image' => 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1400&q=80',
             ],
             [
                 'title' => 'Cash Flow Forecasting for Better Business Decisions',
@@ -49,7 +49,7 @@
                 'summary' => 'Use scenario-based forecasting to reduce uncertainty and guide strategic investments.',
                 'author' => 'Mariam Yusuf',
                 'date' => 'March 2026',
-                'image' => 'https://source.unsplash.com/1400x900/?african,business,analysis,laptop',
+                'image' => 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=80',
             ],
         ];
 

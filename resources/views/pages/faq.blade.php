@@ -22,7 +22,7 @@
     >
         <x-slot:media>
             <div class="media-frame h-72 md:h-80">
-                <img src="https://source.unsplash.com/1600x1000/?african,business,customer,support" alt="African business team discussing client support questions">
+                <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1600&q=80" alt="African business team discussing client support questions">
             </div>
         </x-slot:media>
     </x-hero>

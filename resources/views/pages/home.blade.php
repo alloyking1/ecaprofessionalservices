@@ -21,8 +21,9 @@
         </x-slot:actions>
 
         <x-slot:media>
-            <div class="media-frame h-80 md:h-[30rem]">
-                <img src="https://source.unsplash.com/1600x1000/?african,business,team,meeting" alt="African professionals collaborating in a corporate meeting">
+            <div class="media-frame h-64 sm:h-72 md:h-[30rem]">
+                <img src="https://images.unsplash.com/photo-1573164574511-73c773193279?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="African professionals collaborating in a corporate meeting">
+                {{-- <img src="https://images.unsplash.com/photo-1739300293504-234817eead52?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="African professionals collaborating in a corporate meeting"> --}}
             </div>
         </x-slot:media>
     </x-hero>
@@ -84,8 +85,8 @@
             </div>
 
             <div>
-                <div class="media-frame mb-6 h-52">
-                    <img src="https://source.unsplash.com/1400x900/?african,consulting,office" alt="African consultants discussing strategy in an office">
+                <div class="media-frame mb-6 h-48 sm:h-52">
+                    <img src="https://images.unsplash.com/photo-1758519289152-d64650d13c7d?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="African consultants discussing strategy in an office">
                 </div>
                 <p class="section-kicker">Testimonials</p>
                 <h2 class="mt-2 font-heading text-3xl font-bold text-slate-900">What our clients say</h2>

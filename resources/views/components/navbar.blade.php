@@ -1,12 +1,12 @@
 <header class="sticky top-0 z-50 border-b border-slate-200/80 bg-white/85 backdrop-blur-md transition" :class="scrolled ? 'shadow-md shadow-blue-900/5' : ''">
     <nav class="container-shell flex items-center justify-between py-4" aria-label="Main">
-        <a href="{{ route('home') }}" class="font-heading text-lg font-bold tracking-tight text-primary">
+        <a href="{{ route('home') }}" class="max-w-[72%] font-heading text-base font-bold leading-tight tracking-tight text-primary sm:text-lg lg:max-w-none">
             ECA Professional Services
         </a>
 
         <button
             type="button"
-            class="inline-flex items-center rounded-md border border-slate-300 p-2 text-slate-700 lg:hidden"
+            class="ml-3 inline-flex shrink-0 items-center rounded-md border border-slate-300 p-2 text-slate-700 lg:hidden"
             @click="mobileMenuOpen = !mobileMenuOpen"
             :aria-expanded="mobileMenuOpen.toString()"
             aria-controls="mobile-menu"
@@ -50,7 +50,7 @@
     <div class="fixed inset-0 z-40 bg-slate-900/45 lg:hidden" x-show="mobileMenuOpen" x-transition.opacity @click="mobileMenuOpen = false" x-cloak></div>
     <aside
         id="mobile-menu"
-        class="fixed right-0 top-0 z-50 h-full w-[85%] max-w-sm border-l border-slate-200 bg-white p-6 shadow-2xl lg:hidden"
+        class="fixed inset-y-0 right-0 z-50 flex h-dvh w-full max-w-sm flex-col overflow-y-auto border-l border-slate-200 bg-white px-5 py-6 shadow-2xl lg:hidden sm:px-6"
         x-show="mobileMenuOpen"
         x-transition:enter="transition duration-300 ease-out"
         x-transition:enter-start="translate-x-full"
@@ -62,12 +62,12 @@
     >
         <div class="mb-6 flex items-center justify-between">
             <p class="font-heading text-base font-bold text-primary">Menu</p>
-            <button type="button" class="rounded-md border border-slate-300 px-2 py-1 text-sm" @click="mobileMenuOpen = false" aria-label="Close menu">Close</button>
+            <button type="button" class="rounded-md border border-slate-300 px-3 py-2 text-sm" @click="mobileMenuOpen = false" aria-label="Close menu">Close</button>
         </div>
 
-        <div class="grid gap-1">
+        <div class="grid flex-1 content-start gap-1">
             @foreach ($site['navigation'] as $item)
-                <a href="{{ route($item['route']) }}" class="rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100" @click="mobileMenuOpen = false">
+                <a href="{{ route($item['route']) }}" class="rounded-md px-3 py-3 text-sm font-medium text-slate-700 hover:bg-slate-100" @click="mobileMenuOpen = false">
                     {{ $item['label'] }}
                 </a>
             @endforeach

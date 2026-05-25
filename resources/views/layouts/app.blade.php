@@ -12,7 +12,7 @@
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="bg-surface text-ink antialiased" x-data="siteUi()" @keydown.escape.window="closeMenus()">
+    <body class="bg-surface text-ink antialiased overflow-x-hidden" :class="mobileMenuOpen ? 'overflow-hidden' : ''" x-data="siteUi()" @keydown.escape.window="closeMenus()">
         <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[70] focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-white">
             Skip to main content
         </a>

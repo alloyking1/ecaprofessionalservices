@@ -10,10 +10,10 @@
         ];
 
         $positions = [
-            ['title' => 'Senior Tax Associate', 'location' => 'Lagos', 'type' => 'Full-time'],
-            ['title' => 'Audit Associate', 'location' => 'Lagos', 'type' => 'Full-time'],
+            ['title' => 'Senior Tax Associate', 'location' => 'Port Harcourt', 'type' => 'Full-time'],
+            ['title' => 'Audit Associate', 'location' => 'Port Harcourt', 'type' => 'Full-time'],
             ['title' => 'Accounting Analyst', 'location' => 'Hybrid', 'type' => 'Full-time'],
-            ['title' => 'Payroll Specialist', 'location' => 'Lagos', 'type' => 'Contract'],
+            ['title' => 'Payroll Specialist', 'location' => 'Port Harcourt', 'type' => 'Contract'],
         ];
     @endphp
 
@@ -29,7 +29,7 @@
 
         <x-slot:media>
             <div class="media-frame h-72 md:h-80">
-                <img src="https://source.unsplash.com/1600x1000/?african,corporate,career,team" alt="African professionals collaborating in a modern workplace">
+                <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1600&q=80" alt="African professionals collaborating in a modern workplace">
             </div>
         </x-slot:media>
     </x-hero>

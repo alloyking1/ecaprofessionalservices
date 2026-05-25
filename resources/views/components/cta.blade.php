@@ -5,8 +5,8 @@
     'buttonHref' => null,
 ])
 
-<section class="rounded-2xl bg-gradient-to-r from-primary to-primary-deep p-8 text-white md:p-10">
-    <h2 class="font-heading text-2xl font-bold">{{ $title }}</h2>
+<section class="rounded-2xl bg-gradient-to-r from-primary to-primary-deep p-6 text-white sm:p-8 md:p-10">
+    <h2 class="font-heading text-xl font-bold sm:text-2xl">{{ $title }}</h2>
     @if ($description)
         <p class="mt-3 max-w-2xl text-sm text-blue-100">{{ $description }}</p>
     @endif

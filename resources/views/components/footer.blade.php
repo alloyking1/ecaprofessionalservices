@@ -32,7 +32,7 @@
                 <li>{{ $site['contact']['email'] }}</li>
                 <li>{{ $site['contact']['address'] }}</li>
             </ul>
-            <form class="mt-4 flex gap-2" action="#" method="post">
+            <form class="mt-4 flex flex-col gap-2 sm:flex-row" action="#" method="post">
                 @csrf
                 <label class="sr-only" for="newsletter-email">Email address</label>
                 <input id="newsletter-email" type="email" name="email" placeholder="Your email" class="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm focus:border-primary focus:outline-none" />

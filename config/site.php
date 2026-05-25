@@ -7,7 +7,7 @@ return [
     'contact' => [
         'phone' => '+234 800 000 0000',
         'email' => 'info@ecaprofessionalservices.com',
-        'address' => 'Lagos, Nigeria',
+        'address' => 'Port Harcourt, Rivers State, Nigeria',
         'hours' => 'Mon - Fri, 8:00 AM - 5:00 PM',
     ],
     'stats' => [
@@ -152,7 +152,7 @@ return [
                 'slug' => 'tax',
                 'name' => 'Tax Services',
                 'summary' => 'Reduce tax risk while improving efficiency and compliance across your operations.',
-                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,accountant,tax,office',
+                'heroImage' => 'https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                 'overview' => 'Our tax team supports businesses with planning, compliance, and strategic structuring to reduce exposure while preserving growth opportunities. We help you align statutory obligations with operational realities and long-term objectives.',
                 'benefits' => [
                     'Improved tax efficiency and reduced compliance risk.',
@@ -178,7 +178,7 @@ return [
                 'slug' => 'audit',
                 'name' => 'Audit Services',
                 'summary' => 'Independent audit and assurance services designed to improve trust and transparency.',
-                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,auditor,finance,meeting',
+                'heroImage' => 'https://images.unsplash.com/photo-1707157284454-553ef0a4ed0d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                 'overview' => 'We deliver independent audit and assurance services with rigorous methodology, sector context, and practical reporting to support stakeholder confidence and governance quality.',
                 'benefits' => [
                     'Enhanced credibility with investors and stakeholders.',
@@ -204,7 +204,7 @@ return [
                 'slug' => 'accounting',
                 'name' => 'Accounting Services',
                 'summary' => 'Accurate, timely, and strategic financial reporting for better business control.',
-                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,accounting,corporate,team',
+                'heroImage' => 'https://images.unsplash.com/photo-1564939558297-fc396f18e5c7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                 'overview' => 'Our accounting services provide reliable bookkeeping, month-end reporting, and management insights that strengthen operational control and strategic decision-making.',
                 'benefits' => [
                     'Accurate monthly financial statements and dashboards.',
@@ -230,7 +230,7 @@ return [
                 'slug' => 'payroll',
                 'name' => 'Payroll Management',
                 'summary' => 'Streamlined payroll operations with compliance at the center.',
-                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,hr,payroll,office',
+                'heroImage' => 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1600&q=80',
                 'overview' => 'We help businesses manage payroll processing, statutory remittances, and workforce reporting with accuracy, confidentiality, and compliance discipline.',
                 'benefits' => [
                     'Accurate payroll processing and timely disbursement.',
@@ -256,7 +256,7 @@ return [
                 'slug' => 'bookkeeping',
                 'name' => 'Bookkeeping Services',
                 'summary' => 'Structured financial records that support smart planning and clean audits.',
-                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,bookkeeping,finance,documents',
+                'heroImage' => 'https://images.unsplash.com/photo-1707157284454-553ef0a4ed0d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                 'overview' => 'We maintain accurate day-to-day records, reconciliations, and ledger structures that keep your finances organized and audit-ready.',
                 'benefits' => [
                     'Reliable transaction records and reconciliations.',
@@ -282,7 +282,7 @@ return [
                 'slug' => 'compliance',
                 'name' => 'Compliance Services',
                 'summary' => 'Practical compliance support that keeps your business ahead of regulatory changes.',
-                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,compliance,law,business',
+                'heroImage' => 'https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                 'overview' => 'We help businesses stay current with tax, statutory, and financial reporting obligations through practical workflows and ongoing advisory support.',
                 'benefits' => [
                     'Lower risk of penalties and late filings.',
@@ -308,7 +308,7 @@ return [
                 'slug' => 'advisory',
                 'name' => 'Financial Advisory',
                 'summary' => 'Strategic advisory services for growth, restructuring, and financial performance.',
-                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,business,consulting,executive',
+                'heroImage' => 'https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=1600&q=80',
                 'overview' => 'Our advisory team works with leadership to improve strategy execution, financial performance, and decision quality across key business priorities.',
                 'benefits' => [
                     'Sharper strategic decisions backed by financial insight.',
@@ -334,7 +334,7 @@ return [
                 'slug' => 'risk-management',
                 'name' => 'Risk Management',
                 'summary' => 'Risk frameworks and controls that protect value and improve resilience.',
-                'heroImage' => 'https://source.unsplash.com/1600x1000/?african,risk,corporate,planning',
+                'heroImage' => 'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1600&q=80',
                 'overview' => 'We help businesses identify, assess, and manage operational and financial risks through practical control frameworks and ongoing monitoring support.',
                 'benefits' => [
                     'Improved resilience to operational disruptions.',

@@ -13,7 +13,7 @@
 
         <x-slot:media>
             <div class="media-frame h-64 md:h-72">
-                <img src="https://source.unsplash.com/1400x900/?african,executives,boardroom" alt="African business leaders in a boardroom discussion">
+                <img src="https://images.unsplash.com/flagged/photo-1553267252-d100936057c1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="African business leaders in a boardroom discussion">
             </div>
         </x-slot:media>
     </x-hero>

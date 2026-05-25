@@ -2,14 +2,18 @@
 
 namespace Tests\Feature;
 
+use App\Mail\CareerApplicationMail;
+use App\Mail\ContactSubmissionMail;
 use Illuminate\Http\UploadedFile;
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Mail;
 use Tests\TestCase;
 
 class FormSubmissionTest extends TestCase
 {
     public function test_contact_form_submits_successfully(): void
     {
+        Mail::fake();
+
         $response = $this->post('/contact', [
             'name' => 'Test User',
             'email' => 'test@example.com',
@@ -21,6 +25,10 @@ class FormSubmissionTest extends TestCase
         $response
             ->assertRedirect()
             ->assertSessionHas('contact_success');
+
+        Mail::assertSent(ContactSubmissionMail::class, function (ContactSubmissionMail $mail): bool {
+            return $mail->hasTo((string) config('mail.submission_to.address'));
+        });
     }
 
     public function test_contact_form_requires_fields(): void
@@ -33,7 +41,7 @@ class FormSubmissionTest extends TestCase
 
     public function test_career_form_submits_with_cv_upload(): void
     {
-        Storage::fake('local');
+        Mail::fake();
 
         $response = $this->post('/careers', [
             'name' => 'Candidate Name',
@@ -48,8 +56,9 @@ class FormSubmissionTest extends TestCase
             ->assertRedirect()
             ->assertSessionHas('career_success');
 
-        $storedFiles = Storage::disk('local')->files('career-cvs');
-        $this->assertNotEmpty($storedFiles);
+        Mail::assertSent(CareerApplicationMail::class, function (CareerApplicationMail $mail): bool {
+            return $mail->hasTo((string) config('mail.submission_to.address'));
+        });
     }
 
     public function test_career_form_validates_cv_presence(): void
